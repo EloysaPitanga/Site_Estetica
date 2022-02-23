@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OriginSix</title>
+
+    <!------ICONES------->
+    <link rel="stylesheet" href="./assets/fonts/style.css" />
+    <link rel="stylesheet" href="./testimonials.css" />
+
+    <!-----SWIPER ------>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css"
+    />
+
+    <!-----STYLES------->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-----FONTS------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Fernanda<span>Pitanga</span>.</a>
+        <!---menu-->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#results">Resultados</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!--/menu-->
+        <div class="toggle icon-navicon"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <div class="banner">
+              <img src="./images/logo_header.png" alt="" />
+            </div>
+
+            <img src="./images/home.png" alt="" />
+          </div>
+          <div class="text">
+            <h2 class="title">
+              Saúde, estética e bem-estar para o corpo e a mente
+            </h2>
+            <p>
+              Atendimento personalizado a domicílio, em Vitória, Vila Velha e
+              Serra - ES.
+            </p>
+            <a class="button" href="#">Agendar um horário</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="./images/about.png" alt="" />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre mim</h2>
+            <p>
+              Formada em Estética e Cosmetologia e cursando Biomedicina, minha
+              paixão pelo corpo, saúde e bem-estar sempre esteve presente desde
+              criança.
+            </p>
+            <div class="image3">
+              <img src="./images/about 2.png" alt="" />
+            </div>
+            <div class="image about2">
+              <img src="./images/about 3.png" alt="" />
+              <p>
+                Cuidar do corpo e da estética é sinônimo de autoestima, minha
+                realização é poder estudar e colocar em prática tudo que aprendo
+                em prol da satisfação e saúde das minhas pacientes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid"></div>
+        <header>
+          <h2 class="title">Serviços</h2>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            <img src="./images/service 1.png" alt="" />
+            <h3 class="title">Limpeza Facial</h3>
+          </div>
+          <div class="card">
+            <img src="./images/service 2.png" alt="" />
+            <h3 class="title">Massagem Modeladora</h3>
+          </div>
+          <div class="card">
+            <img src="./images/service 3.png" alt="" />
+            <h3 class="title">Ventosaterapia</h3>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="results">
+        <div class="container">
+          <header>
+            <h2 class="title">Resultados</h2>
+          </header>
+          <section class="carousel" id="carousel">
+            <input
+              type="radio"
+              name="carousel"
+              id="carousel1"
+              checked="checked"
+            />
+            <input type="radio" name="carousel" id="carousel2" />
+            <input type="radio" name="carousel" id="carousel3" />
+            <input type="radio" name="carousel" id="carousel4" />
+
+            <main class="carousel__stage">
+              <aside class="carousel__item">
+                <img class="carousel__image" src="./images/about 3.png" />
+                <label
+                  for="carousel2"
+                  class="carousel__next carousel__control"
+                ></label>
+              </aside>
+
+              <aside class="carousel__item">
+                <label
+                  for="carousel1"
+                  class="carousel__prev carousel__control"
+                ></label>
+                <img class="carousel__image" src="./images/about.png" />
+                <label
+                  for="carousel3"
+                  class="carousel__next carousel__control"
+                ></label>
+              </aside>
+
+              <aside class="carousel__item">
+                <label
+                  for="carousel2"
+                  class="carousel__prev carousel__control"
+                ></label>
+                <img class="carousel__image" src="./images/about 3.png" />
+                <label
+                  for="carousel4"
+                  class="carousel__next carousel__control"
+                ></label>
+              </aside>
+
+              <aside class="carousel__item">
+                <label
+                  for="carousel3"
+                  class="carousel__prev carousel__control"
+                ></label>
+                <img class="carousel__image" src="./images/about.png" />
+              </aside>
+            </main>
+          </section>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Comentários</h2>
+          </header>
+          <div class="testiSlide">
+            <div>
+              <figure class="testimonial">
+                <blockquote>
+                  Não troco Fernanda por ninguém, toda semana preciso da minha
+                  limpeza facial e massagem relaxante. Minha autoestima melhorou
+                  100%”
+                  <div class="btn"></div>
+                </blockquote>
+                <img
+                  src="http://pbs.twimg.com/profile_images/829191018331385858/jxsj-ZmD.jpg"
+                  alt="Maksim Goffin"
+                />
+                <div class="peopl">
+                  <h3>Neil Patel</h3>
+                  <p class="indentity">Corretor</p>
+                </div>
+              </figure>
+            </div>
+
+            <div>
+              <figure class="testimonial">
+                <blockquote>
+                  Dá pra ver o resultado desde o primeiro atendimento! Fernanda
+                  tem as melhores mãos, foi essencial para meu pré e pós
+                  operatório”
+                  <div class="btn"></div>
+                </blockquote>
+                <img
+                  src="https://secure.gravatar.com/avatar/24a495e3a7316e619af62445f1a86886?s=96&d=mm&r=g"
+                  alt="Maksim Goffin"
+                />
+                <div class="peopl">
+                  <h3>Shaan</h3>
+                  <p class="indentity">Enfermeiro</p>
+                </div>
+              </figure>
+            </div>
+
+            <div>
+              <figure class="testimonial">
+                <blockquote>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                  <div class="btn"></div>
+                </blockquote>
+                <img
+                  src="https://yt3.ggpht.com/a/AGF-l7_ESQtd3r7nPdFdP_mmyxn65RFy9JlGT0dGyA=s900-mo-c-c0xffffffff-rj-k-no"
+                  alt="Maksim Goffin"
+                />
+                <div class="peopl">
+                  <h3>Brian Dean</h3>
+                  <p class="indentity">Blogger</p>
+                </div>
+              </figure>
+            </div>
+
+            <div>
+              <figure class="testimonial">
+                <blockquote>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+
+                  <div class="btn"></div>
+                </blockquote>
+                <img
+                  src="https://design.sva.edu/wp-content/uploads/2018/08/Sagmeister.jpg"
+                  alt="Maksim Goffin"
+                />
+                <div class="peopl">
+                  <h3>Stefan Sagmeister</h3>
+                  <p class="indentity">Designer</p>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT  -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Contato</h2>
+            <p>Tire suas dúvidas e agende um serviço!</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=SeuNúmero&text=SuaMensagem"
+              class="button"
+              target="_blank"
+            >
+              <i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+          <div class="link">
+            <ul class="grid">
+              <li><i class="icon-whatsapp"></i> (27)9999999</li>
+              <li><i class="icon-envelope-o"></i>feferpitanga@gmail.com</li>
+              <li><i class="icon-brand"></i>@fernandapitanga</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <img src="./images/logo_header.png" alt="" />
+          <p>©2022 E&Y Pitanga.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social">
+          <a href="instagram.com" target="_blank">
+            <i class="icon-brand"></i>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=SeuNúmero&text=SuaMensagem"
+            target="_blank"
+            ><i class="icon-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-circle-up"></i></a>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+    <!-- SCROLLREVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main-->
+    <script src="main.js"></script>
+  </body>
+</html>
